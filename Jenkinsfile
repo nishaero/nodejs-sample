@@ -28,10 +28,5 @@ pipeline {
                 sh 'npm install ghost-cli -g' 
             }
         }
-        stage('Install Ghost Locally') { 
-            steps {
-                sh 'ghost install local' 
-            }
-        }
     }
 }
